@@ -1,0 +1,195 @@
+body {
+  background: #333;
+  margin: 20px;
+  color: #fff;
+}
+
+.changelog {
+  margin-top: 20px;
+  text-align: right;
+}
+
+p {
+  color: #ff0000;
+}
+
+.items {
+  height: 20vh;
+  /*change this as per your requirments */
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.item {
+  box-shadow: inset 0 0 0 1px #333;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-box-flex 0.5s, -webkit-filter .2s, -webkit-transform .2s;
+  transition: -webkit-box-flex 0.5s, -webkit-filter .2s, -webkit-transform .2s;
+  transition: flex 0.5s, filter .2s, transform .2s;
+  transition: flex 0.5s, filter .2s, transform .2s, -webkit-box-flex 0.5s, -ms-flex 0.5s, -webkit-filter .2s, -webkit-transform .2s;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.items--v2 .item {
+  overflow: hidden;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+.items--v2 .item.sibling {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.item-1 {
+  background-image: url("https://randomuser.me/api/portraits/women/1.jpg");
+}
+
+.item-2 {
+  background-image: url("https://randomuser.me/api/portraits/women/2.jpg");
+}
+
+.item-3 {
+  background-image: url("https://randomuser.me/api/portraits/women/3.jpg");
+}
+
+.item-4 {
+  background-image: url("https://randomuser.me/api/portraits/women/4.jpg");
+}
+
+.item-5 {
+  background-image: url("https://randomuser.me/api/portraits/women/5.jpg");
+}
+
+.item-6 {
+  background-image: url("https://randomuser.me/api/portraits/women/6.jpg");
+}
+
+.item-7 {
+  background-image: url("https://randomuser.me/api/portraits/women/7.jpg");
+}
+
+.item-8 {
+  background-image: url("https://randomuser.me/api/portraits/women/8.jpg");
+}
+
+.item-9 {
+  background-image: url("https://randomuser.me/api/portraits/women/9.jpg");
+}
+
+.item-10 {
+  background-image: url("https://randomuser.me/api/portraits/women/10.jpg");
+}
+
+.item-11 {
+  background-image: url("https://randomuser.me/api/portraits/women/11.jpg");
+}
+
+.item-12 {
+  background-image: url("https://randomuser.me/api/portraits/women/12.jpg");
+}
+
+.item-13 {
+  background-image: url("https://randomuser.me/api/portraits/women/13.jpg");
+}
+
+.item-14 {
+  background-image: url("https://randomuser.me/api/portraits/women/14.jpg");
+}
+
+.item-15 {
+  background-image: url("https://randomuser.me/api/portraits/women/15.jpg");
+}
+
+.item-16 {
+  background-image: url("https://randomuser.me/api/portraits/women/16.jpg");
+}
+
+.item-17 {
+  background-image: url("https://randomuser.me/api/portraits/women/17.jpg");
+}
+
+.item-18 {
+  background-image: url("https://randomuser.me/api/portraits/women/18.jpg");
+}
+
+.item-19 {
+  background-image: url("https://randomuser.me/api/portraits/women/19.jpg");
+}
+
+.item-20 {
+  background-image: url("https://randomuser.me/api/portraits/women/20.jpg");
+}
+
+.item-21 {
+  background-image: url("https://randomuser.me/api/portraits/women/21.jpg");
+}
+
+.item-22 {
+  background-image: url("https://randomuser.me/api/portraits/women/22.jpg");
+}
+
+.item-23 {
+  background-image: url("https://randomuser.me/api/portraits/women/23.jpg");
+}
+
+.item-24 {
+  background-image: url("https://randomuser.me/api/portraits/women/24.jpg");
+}
+
+.item-25 {
+  background-image: url("https://randomuser.me/api/portraits/women/25.jpg");
+}
+
+.item-26 {
+  background-image: url("https://randomuser.me/api/portraits/women/26.jpg");
+}
+
+.item-27 {
+  background-image: url("https://randomuser.me/api/portraits/women/27.jpg");
+}
+
+.item-28 {
+  background-image: url("https://randomuser.me/api/portraits/women/28.jpg");
+}
+
+.item-29 {
+  background-image: url("https://randomuser.me/api/portraits/women/29.jpg");
+}
+
+.item-30 {
+  background-image: url("https://randomuser.me/api/portraits/women/30.jpg");
+}
+
+/* Flex Items */
+.item:hover {
+  -webkit-box-flex: 3 !important;
+      -ms-flex-positive: 3 !important;
+          flex-grow: 3 !important;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+.item.sibling {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.items--v2 .item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 2;
+}
